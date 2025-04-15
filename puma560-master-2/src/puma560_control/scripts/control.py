@@ -15,6 +15,7 @@ from geometry_msgs.msg import Pose, Point, Quaternion
 from gazebo_msgs.msg import ModelStates
 from visualization_msgs.msg import Marker
 
+
 class puma560_control:
     def __init__(self):
         rospy.init_node("puma560_control", anonymous=True)
